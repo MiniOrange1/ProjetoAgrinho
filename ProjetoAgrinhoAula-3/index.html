@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="Assets/styles.css">
+  <title>Agrinho</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="Assets/img/planta1.jpg" alt="Avatar de Planta" class="rounded-circle" width="250" height="200" srcset="">
+        <p class="lead"></p>
+        <h1>Projeto Agrinho</h1>
+        <p></p>
+        <p></p>
+        <div>
+          <p class="badge bg-secondary">Desmatamento</p>
+          <p class="badge bg-secondary">Área rural</p>
+          <p class="badge bg-secondary">Campo e cidade</p>
+        </div>
+    </header>
+    <main class="container text mt-5">
+    <h2>Apresentações</h2>
+    <div class="row"> 
+      <!--projeto 1-->
+    <div class="col-md-4">
+    <div class="card">
+        <img src="Assets/img/Desmatamento.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Os acontecimentos recentes</h5>
+          <p class="card-text">
+            O desmatamento é um dos maiores problemas da atualidade
+            afetando a muitos, incluindo trabalhadores do campo.
+          </p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+            Mais</button>
+      </div>
+    </div>
+    </div>
+        <!--projeto 2-->
+      <div class="col-md-4">
+      <div class="card">
+          <img src="Assets/img/Campo.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">A importância do Campo</h5>
+            <p class="card-text">
+              A importância do campo para a cidade é severamente ignorada por muitos,
+              mas faz total diferença na nossa vida.
+            </p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+              Mais</button>
+          </div>
+        </div>
+  
+      </div> 
+          <!--projeto 3-->
+        <div class="col-md-4">
+        <div class="card">
+            <img src="Assets/img/Sla.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Como melhorar a relação entre campo e cidade?</h5>
+              <p class="card-text">
+                A relação entre o campo e a cidade não é uma das melhores,
+                por isso, é necessário melhorá-la.
+              </p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+              Mais</button>
+              
+            </div>
+          </div>
+    
+        </div>
+    
+        </main>
+
+ <!-- Modal 1 -->
+ <div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Acontecimentos recentes:desmatamento e efeitos para o campo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p>O desmatamento e um dos principais problemas ambientais na atualidade,
+                causando inimaginaveis prejuízos para aqueles que são afetados.
+                No campo, o desmatamento destroí o solo fértil e diminui a qualidade
+                do ar, podendo causar doenças respiratórias nos trabalhadores e nos animais.</p>
+              </p>
+              <img src="Assets/img/Desmatamento.jpg" alt="Imagem representativa do Desmatamento online">
+          </div>
+          <div class="modal-footer">
+              <a href="https://youtu.be/-Kju2E5TaCc?si=-tiDw70_QmFxCbrb">Video sobre o desmatamento</a>
+             
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">A importância do campo</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>
+         O campo é um dos setores da econômia mais importântes que existem,
+         sua importância se resume em: prover alimentos as pessoas,
+         aumentar o rendimento da econômia do Brasil,
+         gerar empregos para milhares de pessoas e
+         preservar o meio-ambiente e os animais.
+        <img
+          src="Assets/img/Campo.jpg"class="img-fluid w-100" alt="Imagem para representar Burgar"
+        />
+      </div>
+      <div class="modal-footer">
+        <a
+          href="https://youtu.be/GPw4o7n5-3w?si=Ey6JOilq41Ain91z"
+          >Video sobre a importância do campo</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Como melhorar a relação entre campo e cidade?</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <p>
+         Existem varias maneiras de melhorar a relação entre o campo e a cidade,
+         estas são: melhorar o transporte de alimentos para que cheguem sem estragos,
+         utilizar drones para ajudar a transmitir informações do campo a cidade,
+         construir políticas públicas para promover o desenvolvimento sustentável em 
+         áreas rurais e educar a população sobre a interdependência entre o campo e a cidade.
+        </p>
+        <img src="Assets/img/Sla.jpg" alt="Projeto 3" class="img-fluid w-100" />
+      </div>
+      <div class="modal-footer">
+        <a href="2index.html">Perguntas</a>
+        >
+      </div>
+    </div>
+  </div>
+</div>
+
+        <footer class="container py-5">
+          <h2>Entre em contato</h2>
+          <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/MiniOrange1">GitHub</a>
+          </div>
+          <p class="my-5 text-center">© Copyright 2025. Produzido por Lucas da Cunha Souza</p>
+        </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
